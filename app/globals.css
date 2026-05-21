@@ -334,3 +334,10 @@
 [data-sonner-toast][data-styled='true'] [data-content] {
   gap: 0;
 }
+  /* Force hide the hardcoded Ycode white-label branding badge */
+.ycode-badge, [class*="ycode-badge"], #ycode-branding-badge {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
